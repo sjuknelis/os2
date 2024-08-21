@@ -1,3 +1,6 @@
+cc65
+emu/emu
+proj/proj.out
 *.o
 *.s
 !proj/cpu/crt0.s
