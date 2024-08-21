@@ -1,0 +1,709 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=00013E  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000019  Align=00001  Fill=0000
+tasks.o:
+    CODE              Offs=00013E  Size=0000F4  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000021  Align=00001  Fill=0000
+context.o:
+    CODE              Offs=000232  Size=00009C  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=00006C  Align=00001  Fill=0000
+ksyscall.o:
+    CODE              Offs=0002CE  Size=000056  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=00000A  Align=00001  Fill=0000
+crt0.o:
+    STARTUP           Offs=00006C  Size=00001D  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+input.o:
+    CODE              Offs=000324  Size=0000C0  Align=00001  Fill=0000
+    BSS               Offs=000021  Size=000100  Align=00001  Fill=0000
+    DATA              Offs=00000A  Size=000003  Align=00001  Fill=0000
+output.o:
+    CODE              Offs=0003E4  Size=000076  Align=00001  Fill=0000
+malloc.o:
+    CODE              Offs=00045A  Size=0001A8  Align=00001  Fill=0000
+    BSS               Offs=000121  Size=000040  Align=00001  Fill=0000
+mem.o:
+    CODE              Offs=000602  Size=000092  Align=00001  Fill=0000
+syscall.o:
+    CODE              Offs=000694  Size=00011E  Align=00001  Fill=0000
+    RODATA            Offs=000019  Size=000011  Align=00001  Fill=0000
+    DATA              Offs=00000D  Size=000002  Align=00001  Fill=0000
+string.o:
+    CODE              Offs=0007B2  Size=0002B3  Align=00001  Fill=0000
+cpu/sbc.lib(add.o):
+    CODE              Offs=000A65  Size=00001C  Align=00001  Fill=0000
+cpu/sbc.lib(addeqsp.o):
+    CODE              Offs=000A81  Size=000011  Align=00001  Fill=0000
+cpu/sbc.lib(addysp.o):
+    CODE              Offs=000A92  Size=00000E  Align=00001  Fill=0000
+cpu/sbc.lib(aslax2.o):
+    CODE              Offs=000AA0  Size=00000B  Align=00001  Fill=0000
+cpu/sbc.lib(aslax4.o):
+    CODE              Offs=000AAB  Size=000011  Align=00001  Fill=0000
+cpu/sbc.lib(asrax4.o):
+    CODE              Offs=000ABC  Size=000019  Align=00001  Fill=0000
+cpu/sbc.lib(condes.o):
+    CODE              Offs=000AD5  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=00000F  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+cpu/sbc.lib(copydata.o):
+    CODE              Offs=000AE1  Size=00002D  Align=00001  Fill=0000
+cpu/sbc.lib(decax1.o):
+    CODE              Offs=000B0E  Size=000007  Align=00001  Fill=0000
+cpu/sbc.lib(decaxy.o):
+    CODE              Offs=000B15  Size=000009  Align=00001  Fill=0000
+cpu/sbc.lib(decsp1.o):
+    CODE              Offs=000B1E  Size=000009  Align=00001  Fill=0000
+cpu/sbc.lib(decsp2.o):
+    CODE              Offs=000B27  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(decsp4.o):
+    CODE              Offs=000B34  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(decsp5.o):
+    CODE              Offs=000B41  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(decsp6.o):
+    CODE              Offs=000B4E  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(decsp8.o):
+    CODE              Offs=000B5B  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(div.o):
+    CODE              Offs=000B68  Size=000015  Align=00001  Fill=0000
+cpu/sbc.lib(incax1.o):
+    CODE              Offs=000B7D  Size=000007  Align=00001  Fill=0000
+cpu/sbc.lib(incaxy.o):
+    CODE              Offs=000B84  Size=00000B  Align=00001  Fill=0000
+cpu/sbc.lib(incsp1.o):
+    CODE              Offs=000B8F  Size=000007  Align=00001  Fill=0000
+cpu/sbc.lib(incsp2.o):
+    CODE              Offs=000B96  Size=000016  Align=00001  Fill=0000
+cpu/sbc.lib(incsp3.o):
+    CODE              Offs=000BAC  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(incsp4.o):
+    CODE              Offs=000BB1  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(incsp5.o):
+    CODE              Offs=000BB6  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(incsp6.o):
+    CODE              Offs=000BBB  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(incsp7.o):
+    CODE              Offs=000BC0  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(incsp8.o):
+    CODE              Offs=000BC5  Size=000005  Align=00001  Fill=0000
+cpu/sbc.lib(jmpvec.o):
+    DATA              Offs=000034  Size=000003  Align=00001  Fill=0000
+cpu/sbc.lib(laddeqsp.o):
+    CODE              Offs=000BCA  Size=000023  Align=00001  Fill=0000
+cpu/sbc.lib(lcmp.o):
+    CODE              Offs=000BED  Size=00003B  Align=00001  Fill=0000
+cpu/sbc.lib(ldaxsp.o):
+    CODE              Offs=000C28  Size=000009  Align=00001  Fill=0000
+cpu/sbc.lib(ldeaxysp.o):
+    CODE              Offs=000C31  Size=000013  Align=00001  Fill=0000
+cpu/sbc.lib(leaaxsp.o):
+    CODE              Offs=000C44  Size=00000C  Align=00001  Fill=0000
+cpu/sbc.lib(llt.o):
+    CODE              Offs=000C50  Size=000006  Align=00001  Fill=0000
+cpu/sbc.lib(lpush.o):
+    CODE              Offs=000C56  Size=000021  Align=00001  Fill=0000
+cpu/sbc.lib(makebool.o):
+    CODE              Offs=000C77  Size=00002C  Align=00001  Fill=0000
+cpu/sbc.lib(mod.o):
+    CODE              Offs=000CA3  Size=000011  Align=00001  Fill=0000
+cpu/sbc.lib(mulax10.o):
+    CODE              Offs=000CB4  Size=000019  Align=00001  Fill=0000
+cpu/sbc.lib(negabs.o):
+    CODE              Offs=000CCD  Size=000012  Align=00001  Fill=0000
+cpu/sbc.lib(popptr1.o):
+    CODE              Offs=000CDF  Size=00000E  Align=00001  Fill=0000
+cpu/sbc.lib(pusha.o):
+    CODE              Offs=000CED  Size=000016  Align=00001  Fill=0000
+cpu/sbc.lib(pushax.o):
+    CODE              Offs=000D03  Size=00001A  Align=00001  Fill=0000
+cpu/sbc.lib(pushw.o):
+    CODE              Offs=000D1D  Size=00000F  Align=00001  Fill=0000
+cpu/sbc.lib(pushwsp.o):
+    CODE              Offs=000D2C  Size=00001C  Align=00001  Fill=0000
+cpu/sbc.lib(shelp.o):
+    CODE              Offs=000D48  Size=000020  Align=00001  Fill=0000
+cpu/sbc.lib(staspidx.o):
+    CODE              Offs=000D68  Size=000016  Align=00001  Fill=0000
+cpu/sbc.lib(staxsp.o):
+    CODE              Offs=000D7E  Size=00000B  Align=00001  Fill=0000
+cpu/sbc.lib(steaxsp.o):
+    CODE              Offs=000D89  Size=000015  Align=00001  Fill=0000
+cpu/sbc.lib(sub.o):
+    CODE              Offs=000D9E  Size=000015  Align=00001  Fill=0000
+cpu/sbc.lib(subysp.o):
+    CODE              Offs=000DB3  Size=00000D  Align=00001  Fill=0000
+cpu/sbc.lib(udiv.o):
+    CODE              Offs=000DC0  Size=00004F  Align=00001  Fill=0000
+cpu/sbc.lib(zerobss.o):
+    CODE              Offs=000E0F  Size=000023  Align=00001  Fill=0000
+cpu/sbc.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000000  000019  00001A  00001
+DATA                  000200  000236  000037  00001
+BSS                   000237  000397  000161  00001
+STARTUP               009037  0090BF  000089  00001
+ONCE                  0090C0  0090CB  00000C  00001
+CODE                  0090CC  009EFD  000E32  00001
+RODATA                009EFE  009F27  00002A  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+__BSS_RUN__               000237 RLA    __BSS_SIZE__              000161 REA    
+__CONSTRUCTOR_COUNT__     000000 REA    __CONSTRUCTOR_TABLE__     0090C0 RLA    
+__DATA_LOAD__             009000 RLA    __DATA_RUN__              000200 RLA    
+__DATA_SIZE__             000037 REA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      0090C0 RLA    __RAM_SIZE__              000D00 REA    
+__RAM_START__             000200 RLA    __STARTUP__               000001 REA    
+_continue_task_asm        009355 RLA    _exit                     009841 RLA    
+_free                     0095D4 RLA    _handle_input             0093F0 RLA    
+_handle_syscall           00939A RLA    _hex_digits               00020D RLA    
+_init_task                00920A RLA    _init_task_asm            0092FE RLA    
+_itoa                     009A5B RLA    _kexit                    0092F5 RLA    
+_kprint                   0094B0 RLA    _kscan                    009482 RLA    
+_kspawn                   0092C8 RLA    _main                     009200 RLA    
+_malloc                   009526 RLA    _memcpy                   009710 RLA    
+_nmi_asm                  009037 RLA    _print                    009760 RLA    
+_print_hex                00977E RLA    _run_tasks                00925C RLA    
+_running_mb               000257 RLA    _scan                     00980C RLA    
+_set_blocked              0092B8 RLA    _spawn                    009827 RLA    
+_strcmp                   00987E RLA    _strcpy                   00994B RLA    
+_strlen                   0099AF RLA    addeq0sp                  009B4D RLA    
+addeqysp                  009B4F RLA    addysp                    009B5F RLA    
+addysp1                   009B5E RLA    aslax2                    009B6C RLA    
+aslax4                    009B77 RLA    asrax4                    009B88 RLA    
+boollt                    009D52 RLA    boolne                    009D43 RLA    
+copydata                  009BAD RLA    decax1                    009BDA RLA    
+decaxy                    009BE1 RLA    decsp1                    009BEA RLA    
+decsp2                    009BF3 RLA    decsp4                    009C00 RLA    
+decsp5                    009C0D RLA    decsp6                    009C1A RLA    
+decsp8                    009C27 RLA    donelib                   009BA1 RLA    
+incax1                    009C49 RLA    incaxy                    009C52 RLA    
+incsp1                    009C5B RLA    incsp2                    009C6A RLA    
+incsp3                    009C78 RLA    incsp4                    009C7D RLA    
+incsp5                    009C82 RLA    incsp6                    009C87 RLA    
+incsp7                    009C8C RLA    incsp8                    009C91 RLA    
+initlib                   0090C0 RLA    jmpvec                    000234 RLA    
+laddeqysp                 009C98 RLA    ldax0sp                   009CF4 RLA    
+ldaxysp                   009CF6 RLA    ldeaxysp                  009CFF RLA    
+leaa0sp                   009D10 RLA    mulax10                   009D80 RLA    
+negax                     009D9D RLA    popax                     009C62 RLA    
+popptr1                   009DAB RLA    popsargsudiv16            009E14 RLA    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+ptr4                      00000E RLZ    push0                     009DCF RLA    
+pusha                     009DBD RLA    pusha0                    009DD1 RLA    
+pushax                    009DD3 RLA    pusheax                   009D2B RLA    
+pushl0                    009D22 RLA    pushw                     009DE9 RLA    
+pushw0sp                  009DF8 RLA    pushwysp                  009DFA RLA    
+sp                        000000 RLZ    sreg                      000002 RLZ    
+staspidx                  009E34 RLA    stax0sp                   009E4A RLA    
+staxysp                   009E4C RLA    steaxysp                  009E57 RLA    
+subysp                    009E7F RLA    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    tosaddax                  009B33 RLA    
+tosdiva0                  009C34 RLA    toslcmp                   009CB9 RLA    
+toslteax                  009D1C RLA    tosmoda0                  009D6F RLA    
+tossuba0                  009E6A RLA    tossubax                  009E6C RLA    
+udiv16                    009E9D RLA    zerobss                   009EDB RLA    
+
+
+
+Exports list by value:
+----------------------
+__CONSTRUCTOR_COUNT__     000000 REA    sp                        000000 RLZ    
+__DESTRUCTOR_COUNT__      000000 REA    __STARTUP__               000001 REA    
+sreg                      000002 RLZ    ptr1                      000008 RLZ    
+ptr2                      00000A RLZ    ptr4                      00000E RLZ    
+tmp1                      000010 RLZ    tmp2                      000011 RLZ    
+__DATA_SIZE__             000037 REA    __BSS_SIZE__              000161 REA    
+__DATA_RUN__              000200 RLA    __RAM_START__             000200 RLA    
+_hex_digits               00020D RLA    jmpvec                    000234 RLA    
+__BSS_RUN__               000237 RLA    _running_mb               000257 RLA    
+__RAM_SIZE__              000D00 REA    __DATA_LOAD__             009000 RLA    
+_nmi_asm                  009037 RLA    initlib                   0090C0 RLA    
+__CONSTRUCTOR_TABLE__     0090C0 RLA    __DESTRUCTOR_TABLE__      0090C0 RLA    
+_main                     009200 RLA    _init_task                00920A RLA    
+_run_tasks                00925C RLA    _set_blocked              0092B8 RLA    
+_kspawn                   0092C8 RLA    _kexit                    0092F5 RLA    
+_init_task_asm            0092FE RLA    _continue_task_asm        009355 RLA    
+_handle_syscall           00939A RLA    _handle_input             0093F0 RLA    
+_kscan                    009482 RLA    _kprint                   0094B0 RLA    
+_malloc                   009526 RLA    _free                     0095D4 RLA    
+_memcpy                   009710 RLA    _print                    009760 RLA    
+_print_hex                00977E RLA    _scan                     00980C RLA    
+_spawn                    009827 RLA    _exit                     009841 RLA    
+_strcmp                   00987E RLA    _strcpy                   00994B RLA    
+_strlen                   0099AF RLA    _itoa                     009A5B RLA    
+tosaddax                  009B33 RLA    addeq0sp                  009B4D RLA    
+addeqysp                  009B4F RLA    addysp1                   009B5E RLA    
+addysp                    009B5F RLA    aslax2                    009B6C RLA    
+aslax4                    009B77 RLA    asrax4                    009B88 RLA    
+donelib                   009BA1 RLA    copydata                  009BAD RLA    
+decax1                    009BDA RLA    decaxy                    009BE1 RLA    
+decsp1                    009BEA RLA    decsp2                    009BF3 RLA    
+decsp4                    009C00 RLA    decsp5                    009C0D RLA    
+decsp6                    009C1A RLA    decsp8                    009C27 RLA    
+tosdiva0                  009C34 RLA    incax1                    009C49 RLA    
+incaxy                    009C52 RLA    incsp1                    009C5B RLA    
+popax                     009C62 RLA    incsp2                    009C6A RLA    
+incsp3                    009C78 RLA    incsp4                    009C7D RLA    
+incsp5                    009C82 RLA    incsp6                    009C87 RLA    
+incsp7                    009C8C RLA    incsp8                    009C91 RLA    
+laddeqysp                 009C98 RLA    toslcmp                   009CB9 RLA    
+ldax0sp                   009CF4 RLA    ldaxysp                   009CF6 RLA    
+ldeaxysp                  009CFF RLA    leaa0sp                   009D10 RLA    
+toslteax                  009D1C RLA    pushl0                    009D22 RLA    
+pusheax                   009D2B RLA    boolne                    009D43 RLA    
+boollt                    009D52 RLA    tosmoda0                  009D6F RLA    
+mulax10                   009D80 RLA    negax                     009D9D RLA    
+popptr1                   009DAB RLA    pusha                     009DBD RLA    
+push0                     009DCF RLA    pusha0                    009DD1 RLA    
+pushax                    009DD3 RLA    pushw                     009DE9 RLA    
+pushw0sp                  009DF8 RLA    pushwysp                  009DFA RLA    
+popsargsudiv16            009E14 RLA    staspidx                  009E34 RLA    
+stax0sp                   009E4A RLA    staxysp                   009E4C RLA    
+steaxysp                  009E57 RLA    tossuba0                  009E6A RLA    
+tossubax                  009E6C RLA    subysp                    009E7F RLA    
+udiv16                    009E9D RLA    zerobss                   009EDB RLA    
+
+
+
+Imports list:
+-------------
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s:8
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:18
+__DATA_LOAD__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_RUN__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DATA_SIZE__ ([linker generated]):
+    copydata.o                common/copydata.s:8
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s:19
+__RAM_SIZE__ ([linker generated]):
+    crt0.o                    ./cpu/crt0.s:6
+    context.o                 ./tasks/context.s:13
+__RAM_START__ ([linker generated]):
+    crt0.o                    ./cpu/crt0.s:6
+    context.o                 ./tasks/context.s:13
+__STARTUP__ (crt0.o):
+    main.o                    ./main.s:13
+_continue_task_asm (context.o):
+    tasks.o                   ./tasks/tasks.s:15
+_exit (syscall.o):
+    main.o                    ./main.s:23
+_free (malloc.o):
+    main.o                    ./main.s:15
+_handle_input (input.o):
+    tasks.o                   ./tasks/tasks.s:13
+_handle_syscall (ksyscall.o):
+    tasks.o                   ./tasks/tasks.s:16
+_hex_digits (syscall.o):
+    output.o                  ./io/output.s:15
+_init_task (tasks.o):
+    main.o                    ./main.s:24
+_init_task_asm (context.o):
+    tasks.o                   ./tasks/tasks.s:14
+_itoa (string.o):
+    main.o                    ./main.s:18
+_kexit (tasks.o):
+    ksyscall.o                ./tasks/ksyscall.s:17
+_kprint (output.o):
+    ksyscall.o                ./tasks/ksyscall.s:15
+_kscan (input.o):
+    ksyscall.o                ./tasks/ksyscall.s:14
+_kspawn (tasks.o):
+    ksyscall.o                ./tasks/ksyscall.s:16
+_main (main.o):
+    crt0.o                    ./cpu/crt0.s:3
+_malloc (malloc.o):
+    main.o                    ./main.s:14
+_memcpy (mem.o):
+    syscall.o                 ./stdlib/syscall.s:18
+_nmi_asm (context.o):
+    crt0.o                    ./cpu/crt0.s:3
+_print (syscall.o):
+    main.o                    ./main.s:19
+_print_hex (syscall.o):
+    main.o                    ./main.s:20
+_run_tasks (tasks.o):
+    main.o                    ./main.s:25
+_running_mb (tasks.o):
+    ksyscall.o                ./tasks/ksyscall.s:19
+_scan (syscall.o):
+    main.o                    ./main.s:21
+_set_blocked (tasks.o):
+    input.o                   ./io/input.s:16
+_spawn (syscall.o):
+    main.o                    ./main.s:22
+_strcmp (string.o):
+    main.o                    ./main.s:16
+_strcpy (string.o):
+    syscall.o                 ./stdlib/syscall.s:19
+    input.o                   ./io/input.s:15
+_strlen (string.o):
+    syscall.o                 ./stdlib/syscall.s:20
+    main.o                    ./main.s:17
+addeq0sp (addeqsp.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    mem.o                     ./stdlib/mem.s:113
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+addeqysp (addeqsp.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+addysp (addysp.o):
+    incsp8.o                  runtime/incsp8.s:8
+    incsp7.o                  runtime/incsp7.s:8
+    incsp6.o                  runtime/incsp6.s:8
+    incsp5.o                  runtime/incsp5.s:8
+    incsp4.o                  runtime/incsp4.s:8
+    incsp3.o                  runtime/incsp3.s:8
+    string.o                  ./stdlib/string.s:420
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s:8
+aslax2 (aslax2.o):
+    malloc.o                  ./stdlib/malloc.s:275
+aslax4 (aslax4.o):
+    malloc.o                  ./stdlib/malloc.s:275
+asrax4 (asrax4.o):
+    syscall.o                 ./stdlib/syscall.s:237
+boollt (makebool.o):
+    llt.o                     runtime/llt.s:8
+boolne (makebool.o):
+    string.o                  ./stdlib/string.s:420
+copydata (copydata.o):
+    crt0.o                    ./cpu/crt0.s:8
+    context.o                 ./tasks/context.s:15
+decax1 (decax1.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    malloc.o                  ./stdlib/malloc.s:275
+decaxy (decaxy.o):
+    string.o                  ./stdlib/string.s:420
+decsp1 (decsp1.o):
+    string.o                  ./stdlib/string.s:420
+    tasks.o                   ./tasks/tasks.s:205
+    tasks.o                   ./tasks/tasks.s:205
+decsp2 (decsp2.o):
+    mem.o                     ./stdlib/mem.s:113
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s:12
+decsp5 (decsp5.o):
+    syscall.o                 ./stdlib/syscall.s:237
+decsp6 (decsp6.o):
+    malloc.o                  ./stdlib/malloc.s:275
+decsp8 (decsp8.o):
+    main.o                    ./main.s:232
+donelib (condes.o):
+    crt0.o                    ./cpu/crt0.s:8
+incax1 (incax1.o):
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    ksyscall.o                ./tasks/ksyscall.s:86
+    tasks.o                   ./tasks/tasks.s:205
+incaxy (incaxy.o):
+    string.o                  ./stdlib/string.s:420
+incsp1 (incsp1.o):
+    output.o                  ./io/output.s:99
+    input.o                   ./io/input.s:143
+    tasks.o                   ./tasks/tasks.s:205
+incsp2 (incsp2.o):
+    popptr1.o                 runtime/popptr1.s:8
+    staspidx.o                runtime/staspidx.s:8
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    input.o                   ./io/input.s:143
+    ksyscall.o                ./tasks/ksyscall.s:86
+incsp3 (incsp3.o):
+    output.o                  ./io/output.s:99
+    tasks.o                   ./tasks/tasks.s:205
+incsp4 (incsp4.o):
+    lcmp.o                    runtime/lcmp.s:9
+    string.o                  ./stdlib/string.s:420
+    tasks.o                   ./tasks/tasks.s:205
+incsp5 (incsp5.o):
+    syscall.o                 ./stdlib/syscall.s:237
+incsp6 (incsp6.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+incsp7 (incsp7.o):
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    mem.o                     ./stdlib/mem.s:113
+incsp8 (incsp8.o):
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+initlib (condes.o):
+    crt0.o                    ./cpu/crt0.s:8
+    context.o                 ./tasks/context.s:15
+jmpvec (jmpvec.o):
+    ksyscall.o                ./tasks/ksyscall.s:86
+laddeqysp (laddeqsp.o):
+    main.o                    ./main.s:232
+ldax0sp (ldaxsp.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    mem.o                     ./stdlib/mem.s:113
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    input.o                   ./io/input.s:143
+    ksyscall.o                ./tasks/ksyscall.s:86
+    tasks.o                   ./tasks/tasks.s:205
+    main.o                    ./main.s:232
+ldaxysp (ldaxsp.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    output.o                  ./io/output.s:99
+    ksyscall.o                ./tasks/ksyscall.s:86
+    tasks.o                   ./tasks/tasks.s:205
+    main.o                    ./main.s:232
+ldeaxysp (ldeaxysp.o):
+    main.o                    ./main.s:232
+leaa0sp (leaaxsp.o):
+    syscall.o                 ./stdlib/syscall.s:237
+    main.o                    ./main.s:232
+mulax10 (mulax10.o):
+    string.o                  ./stdlib/string.s:420
+negax (negabs.o):
+    shelp.o                   runtime/shelp.s:11
+    mod.o                     runtime/mod.s:11
+    div.o                     runtime/div.s:11
+popax (incsp2.o):
+    shelp.o                   runtime/shelp.s:11
+popptr1 (popptr1.o):
+    udiv.o                    runtime/udiv.s:9
+popsargsudiv16 (shelp.o):
+    mod.o                     runtime/mod.s:11
+    div.o                     runtime/div.s:11
+ptr1 (zeropage.o):
+    popptr1.o                 runtime/popptr1.s:9
+    lcmp.o                    runtime/lcmp.s:10
+    zerobss.o                 common/zerobss.s:9
+    udiv.o                    runtime/udiv.s:10
+    staspidx.o                runtime/staspidx.s:9
+    shelp.o                   runtime/shelp.s:12
+    pushw.o                   runtime/pushw.s:9
+    mulax10.o                 runtime/mulax10.s:9
+    div.o                     runtime/div.s:12
+    copydata.o                common/copydata.s:9
+    string.o                  ./stdlib/string.s:11
+    syscall.o                 ./stdlib/syscall.s:11
+    mem.o                     ./stdlib/mem.s:11
+    malloc.o                  ./stdlib/malloc.s:11
+    output.o                  ./io/output.s:11
+    input.o                   ./io/input.s:11
+    ksyscall.o                ./tasks/ksyscall.s:11
+    tasks.o                   ./tasks/tasks.s:11
+ptr2 (zeropage.o):
+    copydata.o                common/copydata.s:9
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s:10
+    shelp.o                   runtime/shelp.s:12
+push0 (pushax.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+pusha (pusha.o):
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    output.o                  ./io/output.s:99
+    output.o                  ./io/output.s:99
+    input.o                   ./io/input.s:143
+    tasks.o                   ./tasks/tasks.s:205
+pusha0 (pushax.o):
+    string.o                  ./stdlib/string.s:420
+pushax (pushax.o):
+    pushw.o                   runtime/pushw.s:8
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+    mem.o                     ./stdlib/mem.s:113
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    output.o                  ./io/output.s:99
+    input.o                   ./io/input.s:143
+    ksyscall.o                ./tasks/ksyscall.s:86
+    tasks.o                   ./tasks/tasks.s:205
+    tasks.o                   ./tasks/tasks.s:205
+    main.o                    ./main.s:232
+pusheax (lpush.o):
+    main.o                    ./main.s:232
+pushl0 (lpush.o):
+    main.o                    ./main.s:232
+pushw (pushw.o):
+    ksyscall.o                ./tasks/ksyscall.s:86
+pushw0sp (pushwsp.o):
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    input.o                   ./io/input.s:143
+pushwysp (pushwsp.o):
+    string.o                  ./stdlib/string.s:420
+    syscall.o                 ./stdlib/syscall.s:237
+    syscall.o                 ./stdlib/syscall.s:237
+sp (zeropage.o):
+    popptr1.o                 runtime/popptr1.s:9
+    lcmp.o                    runtime/lcmp.s:10
+    decsp4.o                  runtime/decsp4.s:8
+    subysp.o                  runtime/subysp.s:9
+    sub.o                     runtime/sub.s:9
+    steaxsp.o                 runtime/steaxsp.s:8
+    staxsp.o                  runtime/staxsp.s:8
+    staspidx.o                runtime/staspidx.s:9
+    pushwsp.o                 runtime/pushwsp.s:8
+    pushax.o                  runtime/pushax.s:8
+    pusha.o                   runtime/pusha.s:8
+    lpush.o                   runtime/lpush.s:13
+    leaaxsp.o                 runtime/leaaxsp.s:8
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    ldaxsp.o                  runtime/ldaxsp.s:8
+    laddeqsp.o                runtime/laddeqsp.s:8
+    incsp2.o                  runtime/incsp2.s:8
+    incsp1.o                  runtime/incsp1.s:8
+    decsp8.o                  runtime/decsp8.s:8
+    decsp6.o                  runtime/decsp6.s:8
+    decsp5.o                  runtime/decsp5.s:8
+    decsp2.o                  runtime/decsp2.s:8
+    decsp1.o                  runtime/decsp1.s:8
+    addysp.o                  runtime/addysp.s:8
+    addeqsp.o                 runtime/addeqsp.s:8
+    add.o                     runtime/add.s:12
+    string.o                  ./stdlib/string.s:10
+    syscall.o                 ./stdlib/syscall.s:10
+    mem.o                     ./stdlib/mem.s:10
+    malloc.o                  ./stdlib/malloc.s:10
+    output.o                  ./io/output.s:10
+    input.o                   ./io/input.s:10
+    crt0.o                    /Users/simasjuknelis/Desktop/os2/cc65/asminc/zeropage.inc:11
+    ksyscall.o                ./tasks/ksyscall.s:10
+    context.o                 /Users/simasjuknelis/Desktop/os2/cc65/asminc/zeropage.inc:11
+    tasks.o                   ./tasks/tasks.s:10
+    main.o                    ./main.s:10
+sreg (zeropage.o):
+    lcmp.o                    runtime/lcmp.s:10
+    udiv.o                    runtime/udiv.s:10
+    steaxsp.o                 runtime/steaxsp.s:8
+    mod.o                     runtime/mod.s:12
+    lpush.o                   runtime/lpush.s:13
+    ldeaxysp.o                runtime/ldeaxysp.s:12
+    laddeqsp.o                runtime/laddeqsp.s:8
+    string.o                  ./stdlib/string.s:10
+    mem.o                     ./stdlib/mem.s:10
+    tasks.o                   ./tasks/tasks.s:10
+    main.o                    ./main.s:10
+staspidx (staspidx.o):
+    string.o                  ./stdlib/string.s:420
+stax0sp (staxsp.o):
+    string.o                  ./stdlib/string.s:420
+    mem.o                     ./stdlib/mem.s:113
+    mem.o                     ./stdlib/mem.s:113
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+staxysp (staxsp.o):
+    string.o                  ./stdlib/string.s:420
+    string.o                  ./stdlib/string.s:420
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+    main.o                    ./main.s:232
+steaxysp (steaxsp.o):
+    main.o                    ./main.s:232
+subysp (subysp.o):
+    main.o                    ./main.s:232
+tmp1 (zeropage.o):
+    staspidx.o                runtime/staspidx.s:9
+    shelp.o                   runtime/shelp.s:12
+    mod.o                     runtime/mod.s:12
+    incaxy.o                  runtime/incaxy.s:8
+    div.o                     runtime/div.s:12
+    decaxy.o                  runtime/decaxy.s:8
+    copydata.o                common/copydata.s:9
+    asrax4.o                  runtime/asrax4.s:9
+    aslax4.o                  runtime/aslax4.s:8
+    aslax2.o                  runtime/aslax2.s:8
+    add.o                     runtime/add.s:12
+tmp2 (zeropage.o):
+    shelp.o                   runtime/shelp.s:12
+    div.o                     runtime/div.s:12
+tosaddax (add.o):
+    string.o                  ./stdlib/string.s:420
+tosdiva0 (div.o):
+    string.o                  ./stdlib/string.s:420
+    malloc.o                  ./stdlib/malloc.s:275
+    malloc.o                  ./stdlib/malloc.s:275
+toslcmp (lcmp.o):
+    llt.o                     runtime/llt.s:8
+toslteax (llt.o):
+    main.o                    ./main.s:232
+tosmoda0 (mod.o):
+    string.o                  ./stdlib/string.s:420
+tossuba0 (sub.o):
+    string.o                  ./stdlib/string.s:420
+tossubax (sub.o):
+    string.o                  ./stdlib/string.s:420
+udiv16 (udiv.o):
+    shelp.o                   runtime/shelp.s:11
+zerobss (zerobss.o):
+    crt0.o                    ./cpu/crt0.s:8
+    context.o                 ./tasks/context.s:15
+

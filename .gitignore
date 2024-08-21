@@ -1,0 +1,4 @@
+*.o
+*.s
+!proj/cpu/crt0.s
+!proj/tasks/context.s
